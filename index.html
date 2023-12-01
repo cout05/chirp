@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Chirp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="intro-page">
+      <div class="welcome">
+        <h1>Welcome to Chirp</h1>
+        <p>Where the Now Meets the Chirp</p>
+      </div>
+      <div class="sign">
+        <fieldset id="sign-in-container" class="sign-in-container">
+          <legend>Sign in</legend>
+          <form onsubmit="signIn(event)" class="sign-in-form">
+            <label for="email">Email:</label>
+            <input
+              placeholder="Enter email here..."
+              type="text"
+              id="email"
+              name="email"
+              required />
+            <label for="password">Password:</label>
+            <input
+              placeholder="Enter password here..."
+              type="password"
+              id="password"
+              name="password"
+              required />
+            <button type="submit">Sign In</button>
+            <p class="acc" onclick="toggleForm(this)">Create Account</p>
+          </form>
+        </fieldset>
+        <fieldset id="sign-up-container" class="sign-up-container">
+          <legend>Sign up</legend>
+          <form onsubmit="signUp(event)" class="sign-up-form">
+            <label for="username">Username:</label>
+            <input
+              type="text"
+              id="username"
+              placeholder="Enter username here..."
+              name="username"
+              required />
+            <label for="SignUpEmail">Email:</label>
+            <input
+              type="text"
+              id="SignUpEmail"
+              placeholder="Enter email here..."
+              name="SignUpEmail"
+              required />
+            <label for="SignUpPassword">Password:</label>
+            <input
+              type="password"
+              id="SignUpPassword"
+              name="SignUpPassword"
+              placeholder="Enter password here..."
+              required />
+            <button type="submit">Sign In</button>
+            <p class="acc" onclick="toggleForm(this)">Have an Account</p>
+          </form>
+        </fieldset>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
