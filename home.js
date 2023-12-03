@@ -35,7 +35,7 @@ userName.textContent = userNameHolder;
 const inputVal = document.getElementById("postInput");
 
 function createPost() {
-  let posts = JSON.parse(localStorage.getItem("posts"));
+  let posts = JSON.parse(localStorage.getItem("posts")) || [];
 
   posts.push({
     username: userNameHolder,
