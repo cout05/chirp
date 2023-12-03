@@ -2,7 +2,6 @@
 
 <div align="center">
 <img src="images/bird.png" alt="Chirp Logo" width="300" height="300">
-
 </div>
 
 Welcome to Chirp, your go-to platform where the present moment harmonizes with the delightful sounds of nature. 🌿
@@ -19,4 +18,4 @@ Chirp is a simple and delightful school project that seamlessly blends the dynam
 
 - **Open Source:** Chirp is open-source, meaning you can contribute to its development, suggest new features, or even customize it to suit your needs.
 
-link - [https://cout05.github.io/chirp/]
+[Live site URL](https://cout05.github.io/chirp/)
