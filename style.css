@@ -122,10 +122,26 @@ body {
   cursor: pointer;
 }
 
+.bird-logo {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  object-fit: contain;
+}
+
 @media (max-width: 600px) {
   .intro-page {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+  }
+
+  .welcome {
+    text-align: center;
+  }
+
+  .bird-logo {
+    width: 150px;
+    height: 150px;
   }
 }
