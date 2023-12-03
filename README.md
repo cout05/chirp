@@ -18,4 +18,4 @@ Chirp is a simple and delightful school project that seamlessly blends the dynam
 
 - **Open Source:** Chirp is open-source, meaning you can contribute to its development, suggest new features, or even customize it to suit your needs.
 
-[Live site URL](https://cout05.github.io/chirp/)
+[Live site URL](https://chirppp.netlify.app/)
