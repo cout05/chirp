@@ -48,6 +48,7 @@ h6 {
 :root {
   --primary-color: #101010;
   --secondary-color: #f4f5f4;
+  --red: rgb(201, 20, 20);
 }
 
 /*General styling*/
@@ -85,6 +86,10 @@ main {
   justify-content: center;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .nav img,
 .menu-con img {
   width: 25px;
@@ -94,7 +99,31 @@ main {
 }
 
 .menu-con {
+  position: relative;
   width: 82px;
+}
+
+.settings {
+  display: none;
+  background-color: var(--primary-color);
+  position: absolute;
+  right: 50px;
+  bottom: -220px;
+  width: 160px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+}
+
+.option {
+  font-weight: 600;
+  padding: 10px;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.logout {
+  font-weight: 900;
+  color: var(--red);
+  border: 0;
 }
 
 .icon-container {
@@ -147,8 +176,14 @@ main {
   padding-top: 10px;
 }
 
+.main-con {
+  display: flex;
+  gap: 1rem;
+}
+
 .post {
   display: flex;
+  justify-content: space-between;
   gap: 0.8rem;
   width: 600px;
   border-bottom: 1px solid var(--secondary-color);
@@ -165,6 +200,26 @@ main {
 .post-content a {
   color: #f4f5f4;
   font-weight: 600;
+}
+
+.menu-dots {
+  cursor: pointer;
+}
+
+.dots {
+  position: relative;
+}
+
+.del {
+  display: none;
+  position: absolute;
+  right: 2px;
+  bottom: 40px;
+  cursor: pointer;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  padding: 2px 5px;
+  color: var(--red);
 }
 
 /*post icons*/
@@ -184,11 +239,40 @@ main {
   display: block;
 }
 
+/*user-account*/
 #user-account {
   display: none;
-  justify-content: space-between;
   padding: 20px 0;
-  width: 400px;
+  width: 600px;
+}
+
+.nm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.edit {
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  padding: 3px 0;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.nav-prof {
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem;
+  gap: 1rem;
+  margin-bottom: 20px;
+}
+
+.nav-prof div {
+  padding: 30px 68px 10px 68px;
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 @media (max-width: 600px) {
@@ -197,8 +281,26 @@ main {
     height: 50px;
   }
 
-  .icon-container {
+  .nav {
     display: none;
+  }
+
+  .mobile-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(15, 15, 15, 0.5);
+    backdrop-filter: blur(20px);
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .mobile-nav img {
+    width: 30px;
+    height: 25px;
+    object-fit: contain;
   }
 
   .input {
@@ -209,11 +311,24 @@ main {
     max-width: 350px;
   }
 
+  #user-account {
+    max-width: 350px;
+  }
+
+  .nav-prof div {
+    padding: 30px 38px 10px 38px;
+    border-bottom: 1px solid var(--secondary-color);
+  }
+
   .post-content {
     max-width: 250px;
   }
 
   .menu-con {
     width: 50px;
+  }
+
+  .settings {
+    right: 5px;
   }
 }
