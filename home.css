@@ -308,11 +308,16 @@ main {
   }
 
   .input {
-    max-width: 250px;
+    max-width: 225px;
   }
 
   .post {
+    padding: 10px;
     max-width: 350px;
+  }
+
+  .create-post {
+    padding: 20px 10px;
   }
 
   #user-account {
@@ -321,7 +326,7 @@ main {
   }
 
   .nav-prof div {
-    padding: 30px 30px 10px 30px;
+    padding: 25px 25px 10px 25px;
   }
 
   .post-content {
