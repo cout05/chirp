@@ -303,6 +303,10 @@ main {
     object-fit: contain;
   }
 
+  .icon-container {
+    padding: 10px 20px;
+  }
+
   .input {
     max-width: 250px;
   }
@@ -312,12 +316,12 @@ main {
   }
 
   #user-account {
+    padding: 0;
     max-width: 350px;
   }
 
   .nav-prof div {
-    padding: 30px 38px 10px 38px;
-    border-bottom: 1px solid var(--secondary-color);
+    padding: 30px 30px 10px 30px;
   }
 
   .post-content {

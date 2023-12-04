@@ -15,7 +15,6 @@ function navPage(param) {
 }
 
 function toggleSettings() {
-  console.log("hi");
   const settings = document.getElementById("settings");
   if (settings.style.display === "none") {
     settings.style.display = "block";
