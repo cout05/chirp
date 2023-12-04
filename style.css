@@ -48,6 +48,7 @@ h6 {
 :root {
   --primary-color: #101010;
   --secondary-color: #f4f5f4;
+  --green-color: #74a50d;
 }
 
 /*main styling*/
@@ -98,14 +99,14 @@ body {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--secondary-color);
   border-radius: 4px;
 }
 
 .sign-in-form button,
 .sign-up-form button {
-  background-color: #4caf50;
-  color: white;
+  background-color: var(--green-color);
+  color: var(--secondary-color);
   padding: 10px 15px;
   border: none;
   border-radius: 4px;
@@ -114,7 +115,7 @@ body {
 
 .sign-in-form button:hover,
 .sign-up-form button:hover {
-  background-color: #45a049;
+  background-color: #5e850bc5;
 }
 
 .acc {
