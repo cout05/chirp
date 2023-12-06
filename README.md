@@ -4,11 +4,11 @@
 <img src="images/bird.png" alt="Chirp Logo" width="300" height="300">
 </div>
 
-Welcome to Chirp, your go-to platform where the present moment harmonizes with the delightful sounds of nature. 🌿
+Welcome to Chirp, where you can share your thoughts. 🌿
 
 ## About Chirp
 
-Chirp is a simple and delightful school project that seamlessly blends the dynamic essence of the "now" with the enchanting world of chirping words using `localStorage`.
+Chirp is a simple and delightful school project where you can post your thoughts that can be saved using `localStorage`.
 
 ## Features
 
