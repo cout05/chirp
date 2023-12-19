@@ -4,7 +4,7 @@
 <img src="images/bird.png" alt="Chirp Logo" width="300" height="300">
 </div>
 
-Welcome to Chirp, where you can share your thoughts. 🌿
+Welcome to Chirp, where you can share your thoughts.🌿
 
 ## About Chirp
 
