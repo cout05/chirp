@@ -12,6 +12,6 @@ Chirp is a simple and delightful school project where you can post your thoughts
 
 ## Features
 
-- **Local Storage Magic:** Chirp leverages the simplicity of `localStorage` to store your preferences locally. Enjoy a personalized experience
+- **Local Storage Magic:** Chirp leverages the simplicity of `localStorage` to store your preferences locally. Enjoy a personalized experience.
 
 [Live site URL](https://chirppp.netlify.app/).
